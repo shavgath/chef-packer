@@ -1,0 +1,50 @@
+{
+  "name": "solution-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node seeds/seed.js",
+    "start": "node app.js",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "array-flatten": "^2.1.2",
+    "body-parser": "^1.19.0",
+    "bytes": "^3.1.0",
+    "content-type": "^1.0.4",
+    "cookie": "^0.4.0",
+    "cookie-signature": "^1.1.0",
+    "depd": "^2.0.0",
+    "destroy": "^1.0.4",
+    "ee-first": "^1.1.1",
+    "ejs": "^2.6.2",
+    "encodeurl": "^1.0.2",
+    "escape-html": "^1.0.3",
+    "etag": "^1.8.1",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "finalhandler": "^1.1.2",
+    "forwarded": "^0.1.2",
+    "fresh": "^0.5.2",
+    "http-errors": "^1.7.3",
+    "istanbul": "^0.4.5",
+    "mongoose": "^4.11.11",
+    "on-finished": "^2.3.0",
+    "raw-body": "^2.4.1",
+    "send": "^0.17.1",
+    "serve-static": "^1.14.1",
+    "signature": "0.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "chai-jquery": "^2.0.0",
+    "jenkins-mocha": "^8.0.0",
+    "mocha": "^6.2.0",
+    "mocha-junit-reporter": "^1.12.1",
+    "node-mongo-seeds": "^3.1.0"
+  }
+}
